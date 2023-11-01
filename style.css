@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9fb0bf58;
+}
+
+h1 {
+    color: #333;
+    margin-left: 29%;
+}
+
+#input-container {
+    margin-bottom: 20px;
+    margin-left: 27%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 150px;
+    border: 2px solid #2E805F;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #2E805F;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+th {
+    background-color: #2E805F;
+    color: white;
+}
+
+#average {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 47%;
+}
+#total-quantity {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 48%;
+}
+
+h2 {
+    margin-left: 43%;
+}
+
+.delete-button {
+    background-color: rgb(171, 14, 14);
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: rgb(192, 180, 180);
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin-top: 50px;
+}
