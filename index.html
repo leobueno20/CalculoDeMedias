@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,20 @@
     <img src="download.jpeg" style="margin-left: 36.5%; opacity: 90%; border-radius: 10px;">
     <h1>Cálculo de Média de Preços e Estoque</h1>
 
-    <div id="input-container">
-        <label for="price-input">Digite o Preço:</label>
-        <input type="number" id="price-input" onkeydown="handleKeyDown(event, 'quantity-input')">
-
-        <label for "quantity-input">Digite a Quantidade:</label>
-        <input type="number" id="quantity-input" onkeydown="handleKeyDown(event, 'add-button')">
-        
+        <div id="price-quantity-container">
+            <input style="width: 70px;" type="number" id="initial-stock-input" oninput="updateStockDisplay() ">
+            <p id="stock-info">Estoque Restante: 0</p>
+        <div class="precoestoque">
+            <label for="price-input">Digite o Preço:</label>
+            <input type="number" id="price-input" onkeydown="handleKeyDown(event, 'quantity-input')">
+    
+            <label for="quantity-input">Digite a Quantidade:</label>
+            <input type="number" id="quantity-input" onkeydown="handleKeyDown(event, 'add-button')">
+        </div>
+        </div>
+    
         <button id="add-button" onclick="addPrice()">Adicionar</button>
-    </div>
+    
     <table id="items-table">
         <thead>
             <tr>
@@ -32,6 +37,7 @@
         <tbody id="items-body"></tbody>
     </table>
 
+
     <h2>Média dos Preços:</h2>
     <p id="average"></p>
 
@@ -39,6 +45,6 @@
     <p id="total-quantity"></p>
 
     <script src="script.js"></script>
-    <footer>De autoria do Leozinho</footer>
+    <footer>De autoria do Leo-Preços</footer>
 </body>
 </html>

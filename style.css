@@ -8,9 +8,16 @@ h1 {
     margin-left: 29%;
 }
 
-#input-container {
-    margin-bottom: 20px;
-    margin-left: 27%;
+
+#price-quantity-container{
+    margin-left: 2%;
+    display: inline-flex;
+    align-items: center;
+    
+}
+.precoestoque{
+    
+    margin-left: 140px;
 }
 
 label {
@@ -58,14 +65,14 @@ th {
     font-size: 30px;
     padding: 0px;
     margin: 0px;
-    margin-left: 47%;
+    margin-left: 46%;
 }
 #total-quantity {
     font-weight: bold;
     font-size: 30px;
     padding: 0px;
     margin: 0px;
-    margin-left: 48%;
+    margin-left: 46%;
 }
 
 h2 {
